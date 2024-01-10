@@ -5,7 +5,7 @@ public class Romb {
         return 0;
     }
 
-    public void calcPerimeter(){
-
+    public double calcPerimeter(){
+        return 0;
     }
 }

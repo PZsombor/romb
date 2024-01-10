@@ -17,7 +17,7 @@ public class RombTest {
     }
 
     public void testCalcPerimeter() {
-        this.romb.calcPerimeter();
+        double actual = this.romb.calcPerimeter();
     }
 
 
