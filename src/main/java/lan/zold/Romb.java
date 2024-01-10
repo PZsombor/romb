@@ -8,6 +8,6 @@ public class Romb {
     }
 
     public double calcPerimeter(double side){
-        return 4*side;
+        return 4*side
     }
 }
