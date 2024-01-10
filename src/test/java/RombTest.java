@@ -28,14 +28,14 @@ public class RombTest {
 
     @Test
     public void testCalcPerimeter() {
-        double actual = this.romb.calcPerimeter();
+        double actual = this.romb.calcPerimeter(30);
         double expected = 120;
         Assert.assertEquals(actual, expected, 0.1, "Hiba! Nem 120 az eredmény!");
     }
 
     @Test
     public void testCalcPerimeter2() {
-        double actual = this.romb.calcPerimeter();
+        double actual = this.romb.calcPerimeter(30);
         double expected = 120;
         Assert.assertEquals(actual, expected, 0.1, "Hiba! Nem 120 az eredmény!");
     }
