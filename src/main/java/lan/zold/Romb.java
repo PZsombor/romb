@@ -4,10 +4,10 @@ import java.math.*;
 
 public class Romb {
     public double calcArea(double side, int angle) {
-        return 0;
+        return Math.pow(side, 2)*Math.sin(angle);
     }
 
-    public double calcPerimeter(){
-        return 0;
+    public double calcPerimeter(double side){
+        return 4*side;
     }
 }
