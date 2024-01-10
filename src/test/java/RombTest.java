@@ -7,12 +7,12 @@ public class RombTest {
     Romb romb;
 
     @BeforeTest
-    public void testCalc() {
+    public void setUp() {
         this.romb = new Romb();
     }
 
     @Test
-    public void testCalc2() {
-        this.romb.calc();
+    public void testCalcArea() {
+        this.romb.calcArea();
     }
 }
