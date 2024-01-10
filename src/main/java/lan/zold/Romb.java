@@ -4,4 +4,8 @@ public class Romb {
     public double calcArea(double side, int angle) {
         return 0;
     }
+
+    public void calcPerimeter(){
+
+    }
 }
