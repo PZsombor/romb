@@ -1,7 +1,7 @@
 package lan.zold;
 
 public class Romb {
-    public void calcArea(double side, int angle) {
-
+    public double calcArea(double side, int angle) {
+        return 0;
     }
 }
